@@ -146,7 +146,7 @@
     "logFormat": "json",
     "chains": [
       {
-        "id": "3",
+        "id": "31",
         "type": "evm",
         "providers": [
           {
@@ -155,8 +155,8 @@
           }
         ],
         "contracts": {
-          "Airnode": "0xF8d32C3e53F7DA6e7CB82323f2cAB2159776b832",
-          "Convenience": "0x1552cF617711D6Da04E0EDC9e5C26eBbA08625ac"
+          "Airnode": "0x1190a5e1f2afe4c8128fd820a7ac85a95a9e6e3e",
+          "Convenience": "0x48bC6ea02a1349Ff147f902C0700f42A54e51deD"
         },
         "providerAdminForRecordCreation": "{FILL_PROVIDER_ADMIN}"
       }
