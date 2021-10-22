@@ -3,18 +3,10 @@
 > A starter project for deploying an Airnode and making requests to it
 
 This project is composed of two steps:
-1. Deploy an Airnode on a supported chain
+1. Deploy an Airnode on RSK
 1. Make a request to the deployed Airnode in a contract
 
-Currently supported chains:
-- Ropsten
-- Rinkeby
-- Goerli
-- Kovan
-- xDai
-- Fantom
-
-You can skip the first step and use the Airnode that we have deployed on **Ropsten** as well.
+You can skip the first step and use the Airnode that we have deployed as well.
 You are recommended to read the contents of the scripts as you run them, and read the entire readme before starting.
 
 ## Setup
@@ -40,9 +32,7 @@ npm run generate-wallet
 
 Then, you need to get a provider URL.
 This will be used both by the deployed Airnode and by you while interacting with contracts.
-If you will be working on Ropsten:
-1. Go to [Infura](https://infura.io/), create an account and get a Ropsten provider URL
-2. Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with the URL you got from Infura
+ Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc'
 
 Adapt the steps above if you will be using another chain.
 Note that you can use any other provider or your own node.
