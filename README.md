@@ -34,9 +34,8 @@ Then, you need to get a provider URL.
 This will be used both by the deployed Airnode and by you while interacting with contracts.
  Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc'
 
-Adapt the steps above if you will be using another chain.
 Note that you can use any other provider or your own node.
-However, if you will be deploying your own Airnode, the provider endpoint must be publicly accessible (i.e., `127.0.0.1:8545` will not work).
+If you will be deploying your own Airnode, the provider endpoint must be publicly accessible (i.e., `127.0.0.1:8545` will not work).
 
 *(You only need cloud credentials if you will not be skipping Step 1.)*
 
