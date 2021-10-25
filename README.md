@@ -30,9 +30,9 @@ npm run generate-wallet
 6. Import the mnemonic phrase to Metamask
 8. {insert how to get funds on RSK}
 
-Then, you need to get a provider URL.
+Then, you need to set a provider URL to connect to RSK.
 This will be used both by the deployed Airnode and by you while interacting with contracts.
- Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc'
+ Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc', a public node run by Sovryn.
 
 Note that you can use any other provider or your own node.
 If you will be deploying your own Airnode, the provider endpoint must be publicly accessible (i.e., `127.0.0.1:8545` will not work).
