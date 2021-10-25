@@ -28,7 +28,7 @@ npm run generate-wallet
 ```
 5. Install [Metamask](https://metamask.io/) to your web browser
 6. Import the mnemonic phrase to Metamask
-7. Use the [faucet](https://faucet.metamask.io/) to get some Ropsten ETH, or use any other appropriate source for the chain you will be working on
+8. {insert how to get funds on RSK}
 
 Then, you need to get a provider URL.
 This will be used both by the deployed Airnode and by you while interacting with contracts.
