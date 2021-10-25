@@ -6,7 +6,7 @@ This project is composed of two steps:
 1. Deploy an Airnode on RSK
 1. Make a request to the deployed Airnode in a contract
 
-You can skip the first step and use the Airnode that we have deployed as well.
+You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these}.
 You are recommended to read the contents of the scripts as you run them, and read the entire readme before starting.
 
 ## Setup
