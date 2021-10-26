@@ -91,7 +91,7 @@ This will output a receipt file with the extension `.receipt.json`.
 
 ### Fund your master wallet
 
-Run the following to send your master wallet 0.1 ETH for it to [create a provider record](https://api3dao.github.io/api3-docs/pre-alpha/protocols/request-response/provider.html#creating-a-provider-record) for you on-chain.
+Run the following to send your master wallet 0.1 RBTC for it to [create a provider record](https://api3dao.github.io/api3-docs/pre-alpha/protocols/request-response/provider.html#creating-a-provider-record) for you on-chain.
 ```sh
 npm run fund-master-wallet
 ```
@@ -144,7 +144,7 @@ First run the following to derive the [designated wallet](https://api3dao.github
 ```sh
 npm run derive-designated-wallet-address
 ```
-and then fund this designated wallet with 0.1 ETH:
+and then fund this designated wallet with 0.1 RBTC:
 ```sh
 npm run fund-designated-wallet
 ```
