@@ -26,7 +26,7 @@ npm run build
 ```sh
 npm run generate-wallet
 ```
-5. Install [Metamask](https://metamask.io/) to your web browser and connect to RSK through this link https://medium.com/sovryn/setting-up-metamask-for-sovryn-on-mainnet-cbf798ca0c9a.
+5. Install [Metamask](https://metamask.io/) to your web browser and connect to RSK through this link https://medium.com/sovryn/setting-up-metamask-for-sovryn-on-mainnet-cbf798ca0c9a (instructions are for mainnet, switch chainId to 31, and the RPC to the given URL above).
 6. Import the mnemonic phrase to Metamask
 8. {insert how to get funds on RSK}
 
