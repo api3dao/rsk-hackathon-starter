@@ -96,7 +96,7 @@ Run the following to send your master wallet 0.1 RBTC for it to [create a provid
 npm run fund-master-wallet
 ```
 
-Your deployed Airnode will use these funds to make the transaction that will create the provider record on the chain you are operating on, and send the leftover ETH back to your address automatically.
+Your deployed Airnode will use these funds to make the transaction that will create the provider record on the chain you are operating on, and send the leftover RBTC back to your address automatically.
 **You will have to wait ~1 minute for this to happen, otherwise the next step will fail.**
 
 ### Make your endpoint publicly accessible
@@ -149,8 +149,8 @@ and then fund this designated wallet with 0.1 RBTC:
 npm run fund-designated-wallet
 ```
 
-The requests that the client contract will make will be funded by this 0.1 ETH.
-Note that you may have to run `fund-designated-wallet` again if you make too many requests and use up this 0.1 ETH (very unlikely).
+The requests that the client contract will make will be funded by this 0.1 RBTC.
+Note that you may have to run `fund-designated-wallet` again if you make too many requests and use up this 0.1 RBTC (very unlikely).
 
 ### Make a request
 
