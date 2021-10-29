@@ -13,6 +13,10 @@ contract ExampleFeed is AirnodeClient {
         AirnodeClient(airnodeAddress)
     {}
 
+    function getPrice() public view returns(int256) {
+        return price;
+    }
+
     function makeRequest(
         bytes32 providerId,
         bytes32 endpointId,
