@@ -1,4 +1,4 @@
-# Airnode starter
+# Airnode starter (RSK)
 
 > A starter project for deploying an Airnode and making requests to it
 
