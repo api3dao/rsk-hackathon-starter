@@ -6,7 +6,7 @@ This project is composed of two steps:
 1. Deploy an Airnode on RSK
 1. Make a request to the deployed Airnode in a contract
 
-You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these} by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call. You can also call the CoinGecko example one we deployed on RSK without making any code modifications.
+You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these} by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call. You can also call the CoinGecko example one we deployed on RSK testnet without making any code modifications.
 You are recommended to read the contents of the scripts as you run them, and read the entire readme before starting.
 
 ## Setup
