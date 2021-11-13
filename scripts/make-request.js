@@ -41,7 +41,7 @@ async function main() {
   }
   await fulfilled(requestId);
   console.log('Request fulfilled');
-  console.log(`${coinId} price is ${(await exampleClient.fulfilledData(requestId)) / 1e6} USD`);
+  console.log(`returned data is ${(await exampleClient.fulfilledData(requestId)) / 1e6} USD`);
 }
 
 main()
