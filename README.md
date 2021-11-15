@@ -8,7 +8,9 @@ This project is composed of two steps:
 1. Deploy an Airnode on RSK
 1. Make a request to the deployed Airnode in a contract
 
-You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these to be provided by Cam} by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call and designated wallet (lines 24,25). You can also call the CoinGecko example one we deployed on RSK testnet without making any code modifications.
+You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these to be provided by Cam} by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call and designated wallet (lines 24,25). See an example of these modifications at scripts/obp-example-request.js
+
+You can also call the CoinGecko example one we deployed on RSK testnet without making any code modifications.
 You are recommended to read the contents of the scripts as you run them, and read the entire readme before starting.
 
 For our easiest developer experience you can try calling our constantly updated bitcoin price feed by reading the state from getPrice() on the modified ExacmpleClient.sol contract called ExampleFeed.sol (deployed at 0x26EADbF82E93bab4344Cc3157487c49A4243990a on testnet).
@@ -115,7 +117,7 @@ npm run update-authorizers
 ## Step 2: Make a request
 
 The scripts in this step will use the Airnode you have deployed if you have completed Step 1.
-Otherwise, it will use the `providerId` of the Airnode that we have deployed given in [`parameters.js`](/src/parameters.js). It will also need a config.json file to know the contract addresses and rpc url.
+Otherwise, it will use the `providerId` of the Airnode that we have deployed given in [`parameters.js`](/src/parameters.js). If you are making a request to an already deployed airnode you will need a valid config.json file to know the contract addresses and rpc url.
 Note that the `endpointId` will be the same either way because it is [derived from the OIS and endpoint name](https://api3dao.github.io/api3-docs/pre-alpha/protocols/request-response/endpoint.html#endpointid).
 
 ### Create a requester
