@@ -3,6 +3,7 @@
 > A starter project for deploying an Airnode and making requests to it
 
 For a general overview of Airnode and API3 please see our docs https://github.com/api3dao/api3-docs. 
+{add video link}
 
 This project is composed of two steps:
 1. Deploy an Airnode on RSK
