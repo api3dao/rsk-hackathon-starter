@@ -80,7 +80,7 @@ npm run customize-config
 
 ### Deploy
 
-Now your `/config` directory should have the required [config.json](https://api3dao.github.io/api3-docs/pre-alpha/airnode/specifications/config-json.html), [security.json](https://api3dao.github.io/api3-docs/pre-alpha/airnode/specifications/security-json.html) and [.env](https://api3dao.github.io/api3-docs/pre-alpha/guides/provider/deploying-airnode.html#creating-cloud-credentials) files.
+Now your `/config` directory should have the required [config.json](https://docs.api3.org/airnode/pre-alpha/airnode/specifications/config-json.html), [security.json](https://docs.api3.org/airnode/pre-alpha/airnode/specifications/security-json.html) and [.env](https://api3dao.github.io/api3-docs/pre-alpha/guides/provider/deploying-airnode.html#creating-cloud-credentials) files.
 Run the following to deploy your node:
 
 ```sh
@@ -97,7 +97,7 @@ This will output a receipt file with the extension `.receipt.json`.
 
 ### Fund your master wallet
 
-Run the following to send your master wallet 0.1 RBTC for it to [create a provider record](https://api3dao.github.io/api3-docs/pre-alpha/protocols/request-response/provider.html#creating-a-provider-record) for you on-chain.
+Run the following to send your master wallet 0.1 RBTC for it to [create a provider record](https://docs.api3.org/airnode/pre-alpha/protocols/request-response/provider.html) for you on-chain.
 ```sh
 npm run fund-master-wallet
 ```
