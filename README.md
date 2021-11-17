@@ -3,13 +3,14 @@
 > A starter project for deploying an Airnode and making requests to it
 
 For a general overview of Airnode and API3 please see our docs https://github.com/api3dao/api3-docs. 
-{add video link}
+
+If you would like to follow along with a video demo of this airnode-starter you can watch here https://www.youtube.com/watch?v=k231uuQV4To. 
 
 This project is composed of two steps:
 1. Deploy an Airnode on RSK
 1. Make a request to the deployed Airnode in a contract
 
-You can skip the first step and use one of our partners deployed airnodes on RSK {insert link to these to be provided by Cam} by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call and designated wallet (lines 24,25). See an example of these modifications at scripts/obp-example-request.js
+You can skip the first step and use one of our partners deployed airnodes on RSK (https://api3.org/results?tag=bankathon) by modifying src/parameters.js to reflect the new providerId and endpointId, as well as scripts/makeRequest.js with the new parameters for the api call and designated wallet (lines 24,25). See an example of these modifications at scripts/obp-example-request.js
 
 You can also call the CoinGecko example one we deployed on RSK testnet without making any code modifications.
 You are recommended to read the contents of the scripts as you run them, and read the entire readme before starting.
