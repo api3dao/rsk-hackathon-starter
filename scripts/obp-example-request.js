@@ -23,7 +23,7 @@ async function main() {
       parameters.providerId,
       parameters.endpointId,
       util.readFromLogJson('Requester index'),
-      'insert_designated_wallet_here',
+      util.readFromLogJson('Designated wallet address'),
       airnodeAbi.encode([{ name: '_path', type: 'bytes32', value: path},
               { name: '_type', type: 'bytes32', value: type},])
     );
