@@ -1,4 +1,4 @@
-# Airnode starter (RSK)
+# RSK Airnode starter (Note: Pre-Alpha Airnode is being used for the hackathon, not any of the newly released versions)
 
 > A starter project for deploying an Airnode and making requests to it
 
