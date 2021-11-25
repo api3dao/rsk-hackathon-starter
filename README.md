@@ -40,7 +40,7 @@ npm run generate-wallet
 
 Then, you need to set a provider URL to connect to RSK.
 This will be used both by the deployed Airnode and by you while interacting with contracts.
- Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc', a public node run by Sovryn (trying to use the public rsk nodes for an airnode deployment won't work because those rpc nodes do not expose the eth_getLogs method.
+ Replace `https://ropsten.infura.io/v3/{YOUR_KEY}` in your `.env` file with 'https://testnet.sovryn.app/rpc', a public node run by Sovryn (trying to use the public rsk nodes won't work because those rpc nodes do not expose the eth_getLogs method).
 
 Note that you can use any other provider or your own node.
 If you will be deploying your own Airnode, the provider endpoint must be publicly accessible (i.e., `127.0.0.1:8545` will not work).
